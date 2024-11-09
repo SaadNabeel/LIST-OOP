@@ -35,3 +35,8 @@ while choice != 0:
 
     elif choice == 3:
         print("List: ", obj.dis())
+    
+    elif choice==0:
+        print("Exiting!")
+    else:
+        print("invalid choice")
